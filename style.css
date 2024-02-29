@@ -1,0 +1,44 @@
+.header {
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 40px;
+	background-color: salmon;
+	z-index: 999;
+}
+.menu {
+	text-align: center;
+}
+.menu a{
+	margin-right: 15px;
+}
+.content{
+	margin-top: 10%;
+	display: flex;
+}
+.content div{
+	flex: auto;
+}
+ul{
+	padding-left: 150px;
+}
+.main-content{
+	margin-left: 10%;
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: #333;
+	padding: 10px;
+}
+.footer p.copy{
+	color: #eaeaea;
+	font-size: 12px;
+	text-align: center;
+}
+.footer p.copy span{
+	margin-left: 80px;
+}
+
